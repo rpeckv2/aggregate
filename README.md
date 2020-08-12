@@ -1,7 +1,7 @@
 # Aggregator Overview
 Aggregator is a python package meant to simplify combining, cleaning, and validating CSV files received from partners for Insurance Aggregator Inc.
 
-Aggregator is written by Russell Peck, a software engineer in Austin, Texas with an interst in striped African wildlife. He can be reached at peck.russell@gmail.com
+Aggregator is written by Russell Peck, a software engineer in Austin, Texas with an interest in striped African wildlife. He can be reached at peck.russell@gmail.com
 
 
 # Aggregator Design
@@ -33,7 +33,7 @@ The **Aggregator** package was designed with the idea of continued use, and the 
     * For small scale data manipulation such as this **pandas** is the obvious choice. Using this highly supported and extremely well documented package is much easier than creating an external package for standard data manipulation. Testing also determined that the **pandas** package easily handles multiple different line terminators on csv files.
 
 - Object-Oriented Approach
-    * This exercise called for a single schema, but based on the input data coming from two different types of insurance its clear there could be room in the future to define and use multiple schemas. Creating a super class build on schemas on top of can aid in quickly building out new tables or schemas.
+    * This exercise called for a single schema, but based on the input data coming from two different types of insurance its clear there could be room in the future to define and use multiple schemas. Creating a super class to build a schema object on top of can aid in quickly building out new tables or schemas.
 
 - Utilize Packaging Tools
     * By taking advantage of **setup.py** and virtual environments providing this package for use to company programmers is made easy. This takes care of dependency issues, and sets this package up for easy automated installation on cloud machines in the future via download from private github repository, or from a secure company AWS S3 location with **pip**.
