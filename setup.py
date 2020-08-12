@@ -11,7 +11,7 @@ setup(
    author_email='peck.russell@gmail.com',
    packages=find_packages(),
    install_requires=required,
-   url="<https://github.com/peckrussell/aggregator>",
+   url="<https://github.com/rpeckv2/aggregator>",
    classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: Ubuntu 18.04.3 LTS",
