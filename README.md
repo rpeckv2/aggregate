@@ -72,7 +72,7 @@ python3 aggregate.py -h
 ![Screenshot](sample_output.png)
 
 # Running Tests
-The module **pytest** was chosen to write tests for this package because of the increased flexibility and control it provides over the native **unittest**. Tests for this package can be run and see with the following command:
+The module **pytest** was chosen to write tests for this package because of the increased flexibility and control it provides over the native **unittest**. After navigating to the directory containing the tests folder, tests for this package can be run and seen with the following command:
 ~~~
 python3 -m pytest tests -v
 ~~~
